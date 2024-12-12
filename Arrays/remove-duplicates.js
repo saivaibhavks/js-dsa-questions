@@ -8,7 +8,8 @@ temp.push(arr[0]);
 //temp ->1 ,1
 
 for (let i = 1; i < arr.length; i++) {
-  if (temp[arr.length - 1] !== arr[i]) {
+  console.log("item", arr[i], "temp", temp);
+  if (temp[temp.length - 1] !== arr[i]) {
     temp.push(arr[i]);
   }
 }
